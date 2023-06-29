@@ -1,0 +1,882 @@
+2023-06-30 01:12:36,578 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 9416 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 01:12:36,582 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 01:12:37,121 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 01:12:37,192 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2023-06-30 01:12:37,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 01:12:37,754 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:12:37,755 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 01:12:37,755 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 01:12:37,813 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 01:12:37,813 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1183 ms
+2023-06-30 01:12:37,873 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-06-30 01:12:37,877 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-06-30 01:12:37,898 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-30 01:12:37,914 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-06-30 01:13:36,773 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 8988 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 01:13:36,776 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 01:13:37,297 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 01:13:37,365 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2023-06-30 01:13:37,895 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 01:13:37,906 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:13:37,907 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 01:13:37,907 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 01:13:37,969 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 01:13:37,970 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1146 ms
+2023-06-30 01:13:38,019 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-06-30 01:13:38,022 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-06-30 01:13:38,038 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-30 01:13:38,054 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-06-30 01:19:44,726 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 15304 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 01:19:44,732 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 01:19:45,295 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 01:19:45,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2023-06-30 01:19:45,934 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 01:19:45,946 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:19:45,947 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 01:19:45,947 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 01:19:46,014 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 01:19:46,014 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1229 ms
+2023-06-30 01:19:46,067 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-06-30 01:19:46,071 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-06-30 01:19:46,095 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-30 01:19:46,111 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-06-30 01:20:59,859 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 324 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 01:20:59,863 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 01:21:00,381 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 01:21:00,465 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 4 JPA repository interfaces.
+2023-06-30 01:21:01,014 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 01:21:01,024 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:21:01,025 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 01:21:01,025 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 01:21:01,080 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 01:21:01,081 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1175 ms
+2023-06-30 01:21:01,140 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-06-30 01:21:01,144 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-06-30 01:21:01,160 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-30 01:21:01,183 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-06-30 01:33:45,357 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 14848 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 01:33:45,360 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 01:33:45,911 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 01:33:45,973 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2023-06-30 01:33:46,576 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 01:33:46,587 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:33:46,588 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 01:33:46,588 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 01:33:46,655 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 01:33:46,655 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1253 ms
+2023-06-30 01:33:46,709 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-06-30 01:33:46,713 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-06-30 01:33:46,747 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-30 01:33:46,767 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-06-30 01:37:35,633 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 6224 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 01:37:35,638 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 01:37:36,195 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 01:37:36,277 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 4 JPA repository interfaces.
+2023-06-30 01:37:36,841 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 01:37:36,853 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:37:36,854 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 01:37:36,854 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 01:37:36,923 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 01:37:36,924 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1245 ms
+2023-06-30 01:37:36,982 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-06-30 01:37:36,988 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-06-30 01:37:37,013 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-30 01:37:37,034 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-06-30 01:40:04,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 17148 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 01:40:04,462 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 01:40:04,993 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 01:40:05,059 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2023-06-30 01:40:05,626 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 01:40:05,640 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:40:05,641 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 01:40:05,641 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 01:40:05,711 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 01:40:05,711 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1207 ms
+2023-06-30 01:40:05,758 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-06-30 01:40:05,763 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2023-06-30 01:40:05,785 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-30 01:40:05,802 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-06-30 01:55:13,126 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 1756 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 01:55:13,130 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 01:55:13,719 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 01:55:13,780 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2023-06-30 01:55:14,351 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 01:55:14,362 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:55:14,363 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 01:55:14,363 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 01:55:14,431 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 01:55:14,431 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1234 ms
+2023-06-30 01:55:14,597 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-30 01:55:14,673 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-06-30 01:55:14,851 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-30 01:55:14,959 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-06-30 01:55:15,139 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-06-30 01:55:15,161 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-30 01:55:15,834 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-30 01:55:15,842 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 01:55:16,514 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-30 01:55:16,649 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-06-30 01:55:16,797 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-30 01:55:16,819 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-30 01:55:16,827 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.186 seconds (JVM running for 4.737)
+2023-06-30 01:55:45,267 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-30 01:55:45,268 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-06-30 01:55:45,271 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-06-30 01:55:48,990 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/
+2023-06-30 01:55:48,990 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/
+2023-06-30 01:55:49,992 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/
+2023-06-30 01:55:49,997 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/o-muzee/
+2023-06-30 01:55:49,997 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/pressa/
+2023-06-30 01:55:49,998 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/obratnaya-svyaz/
+2023-06-30 01:55:49,997 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/arkhiv-sajta/
+2023-06-30 01:55:49,999 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/kontakty/
+2023-06-30 01:55:50,004 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/dokumentaciya/
+2023-06-30 01:55:50,005 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/bilety/
+2023-06-30 01:55:50,005 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/05/31/1810/
+2023-06-30 01:55:50,005 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/01/1812/
+2023-06-30 01:55:50,466 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/
+2023-06-30 01:55:50,781 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/about-museum/
+2023-06-30 01:55:50,872 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/uchenyj-sovet-gosudarstvennogo-ordena-pocheta-muzeya-a-m-gorkogo/
+2023-06-30 01:55:50,893 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/05/1824/
+2023-06-30 01:55:50,915 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/06/1818/
+2023-06-30 01:55:50,924 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/muzejnyj-abonement/
+2023-06-30 01:55:50,978 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/06/08/1048/
+2023-06-30 01:55:50,979 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/press-relizy/
+2023-06-30 01:55:50,979 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/08/1829/
+2023-06-30 01:55:50,983 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/press-reliz-noch-muzeev/
+2023-06-30 01:55:50,993 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/12/1842/
+2023-06-30 01:55:51,394 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/pravila-biblioteki/
+2023-06-30 01:55:51,526 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/press/
+2023-06-30 01:55:51,701 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/polozhenie-ob-uchenom-sovete-gosudarstvennogo-muzeya-a-m-gorkogo/
+2023-06-30 01:55:51,745 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/kalendar-sobytij/
+2023-06-30 01:55:51,751 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/15/1837/
+2023-06-30 01:55:51,835 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/01/30/2115/
+2023-06-30 01:55:51,849 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/16/1853/
+2023-06-30 01:55:51,857 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/01/23/2187/
+2023-06-30 01:55:51,863 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/17/1857/
+2023-06-30 01:55:51,872 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/noch-muzeev/
+2023-06-30 01:55:51,882 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/26/1851/
+2023-06-30 01:55:52,275 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/contacts/
+2023-06-30 01:55:52,310 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/prostranstvo/
+2023-06-30 01:55:52,552 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/arkhiv-zasedanij-uchenogo-soveta-gosudarstvennogo-ordena-pocheta-muzeya-a-m-gorkogo/
+2023-06-30 01:55:52,621 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/150-letie-a-m-gorkogo/
+2023-06-30 01:55:52,692 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2023/06/08/2231/
+2023-06-30 01:55:52,723 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/literaturnyj-muzej/
+2023-06-30 01:55:52,735 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/22/1891/
+2023-06-30 01:55:52,752 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/literaturnyj-muzej-a-m-gorkogo/
+2023-06-30 01:55:52,759 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/12/03/2183/
+2023-06-30 01:55:52,772 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/muzej-kvartira-a-m-gorkogo/
+2023-06-30 01:55:52,779 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/lektorij/
+2023-06-30 01:55:53,016 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/sitemap/
+2023-06-30 01:55:53,161 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/prostranstvo/abonement/
+2023-06-30 01:55:53,322 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/04/28/1127/
+2023-06-30 01:55:53,449 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2018/02/14/2034/
+2023-06-30 01:55:53,515 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2023/05/17/2229/
+2023-06-30 01:55:53,591 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2018/04/14/2055/
+2023-06-30 01:55:53,593 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/28/1241/
+2023-06-30 01:55:53,633 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/12/03/2181/
+2023-06-30 01:55:53,635 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/muzej-kvartira/
+2023-06-30 01:55:53,666 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/domik-kashirina/
+2023-06-30 01:55:53,726 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/fotogalereya/
+2023-06-30 01:55:53,745 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/archive/
+2023-06-30 01:55:53,975 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/prostranstvo/molodezhnyy-mediatsentr/
+2023-06-30 01:55:54,075 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/filialy/
+2023-06-30 01:55:54,288 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2018/02/06/2030/
+2023-06-30 01:55:54,355 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2023/02/03/2227/
+2023-06-30 01:55:54,409 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/12/14/1904/
+2023-06-30 01:55:54,431 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/a-m-gorkij/
+2023-06-30 01:55:54,494 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/08/17/2164/
+2023-06-30 01:55:54,563 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/grant-prezidenta-rf-na-osushhestvlenie-muzejno-turisticheskogo-proekta-po-rusi-s-maksimom-gorkim/
+2023-06-30 01:55:54,568 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/feedback/
+2023-06-30 01:55:54,592 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/novosti-sobytiya-vystavki/
+2023-06-30 01:55:54,805 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/prostranstvo/detsko-yunosheskiy-otdel/
+2023-06-30 01:55:54,896 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/muzej-detstva-a-m-gorkogo-domik-kashirina/
+2023-06-30 01:55:55,063 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/12/21/2028/
+2023-06-30 01:55:55,147 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2022/05/04/2223/
+2023-06-30 01:55:55,209 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/29/1894/
+2023-06-30 01:55:55,304 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/gorkovskie-mesta/
+2023-06-30 01:55:55,315 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/05/18/2151/
+2023-06-30 01:55:55,335 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/tickets/
+2023-06-30 01:55:55,374 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1933/
+2023-06-30 01:55:55,408 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/vremennye/
+2023-06-30 01:55:55,631 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/3d_tur/
+2023-06-30 01:55:56,039 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2015/07/13/2032/
+2023-06-30 01:55:56,052 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/pravila-poseshheniya/
+2023-06-30 01:55:56,057 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2021/09/01/2218/
+2023-06-30 01:55:56,072 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/26/1735/
+2023-06-30 01:55:56,169 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/05/03/2149/
+2023-06-30 01:55:56,183 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/150-anniversary-a-m-gorky/
+2023-06-30 01:55:56,244 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1740/
+2023-06-30 01:55:56,324 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1935/
+2023-06-30 01:55:56,345 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/dokumenty/
+2023-06-30 01:55:56,372 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/01/14/2104/
+2023-06-30 01:55:56,838 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/fondy-i-kollekcii/
+2023-06-30 01:55:56,874 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/otzyvy-posetitelej/
+2023-06-30 01:55:56,876 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/03/28/2193/
+2023-06-30 01:55:56,931 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/20/1673/
+2023-06-30 01:55:56,996 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/04/25/2145/
+2023-06-30 01:55:57,019 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/news-events-exhibitions/
+2023-06-30 01:55:57,024 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1738/
+2023-06-30 01:55:57,080 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1930/
+2023-06-30 01:55:57,127 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/noch-muzeev-2017/
+2023-06-30 01:55:57,150 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2018/11/07/2086/
+2023-06-30 01:55:57,198 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/team/
+2023-06-30 01:55:57,666 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/kollekcii-i-sobraniya/
+2023-06-30 01:55:57,689 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/09/1151/
+2023-06-30 01:55:57,752 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/03/15/2191/
+2023-06-30 01:55:57,787 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/21/1693/
+2023-06-30 01:55:57,818 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1742/
+2023-06-30 01:55:57,823 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/a-m-gorky/
+2023-06-30 01:55:57,880 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/08/1138/
+2023-06-30 01:55:57,879 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/04/13/2143/
+2023-06-30 01:55:57,946 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2018/09/27/2078/
+2023-06-30 01:55:58,014 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/about/o-nas-v-smi/
+2023-06-30 01:55:58,039 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/novogodnee-predstavlenie-v-carstvo-slavnogo-saltana/
+2023-06-30 01:55:58,442 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/khudozhestvennaya-kollekciya/
+2023-06-30 01:55:58,550 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/08/1140/
+2023-06-30 01:55:58,587 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/nauka-i-publikacii/
+2023-06-30 01:55:58,591 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/02/29/2189/
+2023-06-30 01:55:58,617 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/funds-and-collections/
+2023-06-30 01:55:58,648 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1744/
+2023-06-30 01:55:58,762 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/obrazovanie/
+2023-06-30 01:55:58,789 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/03/15/2137/
+2023-06-30 01:55:58,806 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2018/06/15/2069/
+2023-06-30 01:55:58,880 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/
+2023-06-30 01:55:58,925 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/mediagalereya/
+2023-06-30 01:55:59,207 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/rukopisnye-i-pechatnye-izdaniya/
+2023-06-30 01:55:59,352 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoriya-muzeev/
+2023-06-30 01:55:59,403 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/10/28/2178/
+2023-06-30 01:55:59,438 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/science-and-publications/
+2023-06-30 01:55:59,480 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/gorkovskie-chteniya/
+2023-06-30 01:55:59,512 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1746/
+2023-06-30 01:55:59,596 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/muzej-detyam/
+2023-06-30 01:55:59,624 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/02/22/2125/
+2023-06-30 01:55:59,672 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/10/1980/
+2023-06-30 01:55:59,692 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/videogalereya/
+2023-06-30 01:55:59,717 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/izmenenie-v-grafike-rabotyyyy/
+2023-06-30 01:56:00,003 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/fotografii/
+2023-06-30 01:56:00,178 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoriya-literaturnogo-muzeya-a-m-gorkogo/
+2023-06-30 01:56:00,268 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/education/
+2023-06-30 01:56:00,298 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoriya/
+2023-06-30 01:56:00,305 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/09/11/2176/
+2023-06-30 01:56:00,418 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1748/
+2023-06-30 01:56:00,478 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/posetitelyam/
+2023-06-30 01:56:00,487 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/04/01/2141/
+2023-06-30 01:56:00,503 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/15/1900/
+2023-06-30 01:56:00,570 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/svetlov/
+2023-06-30 01:56:00,589 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/10/18/1974/
+2023-06-30 01:56:00,762 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/memorialnye-predmety/
+2023-06-30 01:56:00,990 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoriya-muzeya-kvartiry-a-m-gorkogo/
+2023-06-30 01:56:01,070 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/photogallery/
+2023-06-30 01:56:01,161 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/karta-sajta/
+2023-06-30 01:56:01,203 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/polozhenie/
+2023-06-30 01:56:01,265 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1750/
+2023-06-30 01:56:01,325 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/08/1833/
+2023-06-30 01:56:01,367 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/postoyannye/
+2023-06-30 01:56:01,369 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/for_partners/o-nas/
+2023-06-30 01:56:01,395 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/12/2007/
+2023-06-30 01:56:01,414 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/nauchnaya-restavraciya/
+2023-06-30 01:56:01,547 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/01/31/2121/
+2023-06-30 01:56:01,780 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoriya-muzeya-detstva-a-m-gorkogo-domik-kashirina/
+2023-06-30 01:56:01,835 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/en/for-visitors/
+2023-06-30 01:56:02,075 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1752/
+2023-06-30 01:56:02,094 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/programma/
+2023-06-30 01:56:02,193 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/
+2023-06-30 01:56:02,259 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/03/1639/
+2023-06-30 01:56:02,266 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2216/
+2023-06-30 01:56:02,270 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/sitemap/
+2023-06-30 01:56:02,280 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/perspektivy-restavracii/
+2023-06-30 01:56:02,299 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1492/
+2023-06-30 01:56:02,348 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoricheskaya-cennost/
+2023-06-30 01:56:02,553 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/gorkovskij-listok/
+2023-06-30 01:56:02,580 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/khronologiya-tvorchestva/
+2023-06-30 01:56:02,580 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/biografiya-pisatelya/
+2023-06-30 01:56:02,856 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1754/
+2023-06-30 01:56:02,968 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/arkhiv-chtenij/
+2023-06-30 01:56:03,057 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/
+2023-06-30 01:56:03,080 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2214/
+2023-06-30 01:56:03,097 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/biografiya-a-m-gorkogo/
+2023-06-30 01:56:03,114 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/24/1424/
+2023-06-30 01:56:03,123 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/18/1721/
+2023-06-30 01:56:03,163 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/13/1198/
+2023-06-30 01:56:03,184 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/06/1664/
+2023-06-30 01:56:03,381 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/1892-1899-gg/
+2023-06-30 01:56:03,403 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/proekty-1/
+2023-06-30 01:56:03,465 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/personalii/
+2023-06-30 01:56:03,604 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/23/1756/
+2023-06-30 01:56:03,783 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2022/02/10/2221/
+2023-06-30 01:56:03,944 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/itogi-raboty-stenda-biblioteki-moskvy-na-moskovskoy-mezhdunarodnoy-knizhnoy-yarmarke-mmkya-2021/
+2023-06-30 01:56:03,945 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2212/
+2023-06-30 01:56:03,978 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/1899-1906-gg/
+2023-06-30 01:56:03,986 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/16/1717/
+2023-06-30 01:56:03,993 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/18/1416/
+2023-06-30 01:56:04,048 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/rezultaty-restavracionnykh-rabot/
+2023-06-30 01:56:04,057 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/internet-katalogi/
+2023-06-30 01:56:04,179 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/06/20/2159/
+2023-06-30 01:56:04,234 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/portretnaya-galereya/
+2023-06-30 01:56:04,260 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/semya-a-m-gorkogo/
+2023-06-30 01:56:04,346 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/okruzhenie-maksima-gorkogo/
+2023-06-30 01:56:04,560 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/10/03/1246/
+2023-06-30 01:56:04,766 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2208/
+2023-06-30 01:56:04,792 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/komyuniti-molodykh-bibliotekarey-impuls-trening-po-lichnoy-effektivnosti/
+2023-06-30 01:56:04,793 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1498/
+2023-06-30 01:56:04,829 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/12/1406/
+2023-06-30 01:56:04,841 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/06/1668/
+2023-06-30 01:56:04,865 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/1906-1914-gg/
+2023-06-30 01:56:04,968 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1937/
+2023-06-30 01:56:04,974 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/soprotivlenyeokryzhausheysredy/WEB/TITLE.HTM/
+2023-06-30 01:56:05,065 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/gorkovskaya-akademiya/
+2023-06-30 01:56:05,088 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/gorkij-i-iskusstvo/
+2023-06-30 01:56:05,118 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/molodezhnyj-muzejnyj-centr/
+2023-06-30 01:56:05,319 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/konferencii/
+2023-06-30 01:56:05,595 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2206/
+2023-06-30 01:56:05,640 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/soprotivlenyeokryzhausheysredy/WEB/TEXT.HTM/
+2023-06-30 01:56:05,683 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/komyuniti-molodykh-sotrudnikov-bibliotek-impuls-/
+2023-06-30 01:56:05,696 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/11/1418/
+2023-06-30 01:56:05,698 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1484/
+2023-06-30 01:56:05,741 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/06/1666/
+2023-06-30 01:56:05,745 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/1914-1922-gg/
+2023-06-30 01:56:05,782 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/muzejnyj-kvartal/
+2023-06-30 01:56:05,895 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/kino/
+2023-06-30 01:56:05,922 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/05/27/1835/
+2023-06-30 01:56:05,976 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/socialnye-programmy/
+2023-06-30 01:56:06,110 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/arkhiv-konferencij/
+2023-06-30 01:56:06,289 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/soprotivlenyeokryzhausheysredy/WEB/Tit.HTM/
+2023-06-30 01:56:06,402 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2204/
+2023-06-30 01:56:06,486 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/pervaya-vstrecha-komyuniti-molodykh-rabotnikov-bibliotek-moskvy-impuls/
+2023-06-30 01:56:06,526 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/11/1391/
+2023-06-30 01:56:06,550 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/normativno-pravovaya-osnova/
+2023-06-30 01:56:06,551 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/02/1712/
+2023-06-30 01:56:06,625 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1963/
+2023-06-30 01:56:06,625 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/1922-1933-gg/
+2023-06-30 01:56:06,727 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2018/12/19/1965/
+2023-06-30 01:56:06,754 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/17/1719/
+2023-06-30 01:56:06,776 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/15/1232/
+2023-06-30 01:56:06,864 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/06/08/1826/
+2023-06-30 01:56:06,967 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/soprotivlenyeokryzhausheysredy/WEB/CR.HTM/
+2023-06-30 01:56:07,168 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2202/
+2023-06-30 01:56:07,302 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/nepervaya-feyl-konferentsiya-moskovskikh-bibliotek-2020/
+2023-06-30 01:56:07,320 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/11/1389/
+2023-06-30 01:56:07,422 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/06/1670/
+2023-06-30 01:56:07,442 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/13/1687/
+2023-06-30 01:56:07,475 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/ot-1933/
+2023-06-30 01:56:07,474 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/virtualnyj-muzej/
+2023-06-30 01:56:07,587 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1496/
+2023-06-30 01:56:07,607 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1961/
+2023-06-30 01:56:07,621 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/portretygorkogo/WEB/TITLE.HTM/
+2023-06-30 01:56:07,694 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/09/1160/
+2023-06-30 01:56:07,719 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/01/21/1470/
+2023-06-30 01:56:07,912 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2210/
+2023-06-30 01:56:08,051 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/02/1410/
+2023-06-30 01:56:08,154 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/pervaya-feyl-konferentsiya-moskovskikh-bibliotek/
+2023-06-30 01:56:08,225 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/13/1200/
+2023-06-30 01:56:08,315 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/15/1228/
+2023-06-30 01:56:08,323 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/portretygorkogo/WEB/TEXT.HTM/
+2023-06-30 01:56:08,434 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1959/
+2023-06-30 01:56:08,458 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/administraciya/
+2023-06-30 01:56:08,465 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1568/
+2023-06-30 01:56:08,465 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/11/1645/
+2023-06-30 01:56:08,508 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/vystavki/
+2023-06-30 01:56:08,534 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2015/10/10/1466/
+2023-06-30 01:56:08,643 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/10/19/2200/
+2023-06-30 01:56:08,781 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1566/
+2023-06-30 01:56:08,979 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/podznakompamyatiilubvi/WEB/TITLE.HTM/
+2023-06-30 01:56:08,991 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/portretygorkogo/WEB/CR.HTM/
+2023-06-30 01:56:08,994 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/conference2020/
+2023-06-30 01:56:09,104 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/13/1685/
+2023-06-30 01:56:09,260 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/13/1683/
+2023-06-30 01:56:09,307 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1957/
+2023-06-30 01:56:09,307 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/otdely-i-sotrudniki/
+2023-06-30 01:56:09,353 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1564/
+2023-06-30 01:56:09,357 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/10/03/1248/
+2023-06-30 01:56:09,409 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/28/1695/
+2023-06-30 01:56:09,424 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/09/01/2198/
+2023-06-30 01:56:09,582 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1562/
+2023-06-30 01:56:09,609 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/podznakompamyatiilubvi/WEB/TEXT.HTM/
+2023-06-30 01:56:09,617 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/plany-i-itogi-restavracii/
+2023-06-30 01:56:09,752 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/tematicheskiy-obed-s-bibliotekami-na-konferentsii-fabrika-prostranstv-obshchestvennogo-tsentra-blago/
+2023-06-30 01:56:10,073 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/06/1658/
+2023-06-30 01:56:10,161 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1955/
+2023-06-30 01:56:10,188 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1560/
+2023-06-30 01:56:10,192 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/mecenaty-i-sponsory/
+2023-06-30 01:56:10,247 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/nauchno-issledovatelskaya-rabota/
+2023-06-30 01:56:10,254 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/podznakompamyatiilubvi/WEB/CR.HTM/
+2023-06-30 01:56:10,288 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/aktualnaya-informaciya/
+2023-06-30 01:56:10,294 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/21/1579/
+2023-06-30 01:56:10,340 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1558/
+2023-06-30 01:56:10,391 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/zhivaya-ekspoziciya/
+2023-06-30 01:56:10,556 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/itogi-raboty-stenda-biblioteki-moskvy-na-moskovskoy-mezhdunarodnoy-knizhnoy-yarmarke-mmkya-2020/
+2023-06-30 01:56:10,848 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/06/1656/
+2023-06-30 01:56:10,939 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/pismennyepribory/WEB/TITLE.HTM/
+2023-06-30 01:56:10,972 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1952/
+2023-06-30 01:56:10,989 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/finansovo-khozyajstvennaya-deyatelnost/
+2023-06-30 01:56:11,006 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1556/
+2023-06-30 01:56:11,104 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/plany-na-god/
+2023-06-30 01:56:11,108 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/12/22/1463/
+2023-06-30 01:56:11,144 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1552/
+2023-06-30 01:56:11,145 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2020/03/27/2185/
+2023-06-30 01:56:11,161 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/fondovo-zakupochnaya-komissiya/
+2023-06-30 01:56:11,388 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/svetlovka-uznala-o-lyubimykh-proizvedeniyakh-gostey-moskovskoy-mezhdunarodnoy-knizhnoy-yarmarki/
+2023-06-30 01:56:11,606 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/pismennyepribory/WEB/TEXT.HTM/
+2023-06-30 01:56:11,609 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/06/1654/
+2023-06-30 01:56:11,799 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1950/
+2023-06-30 01:56:11,831 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1550/
+2023-06-30 01:56:11,831 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/kodeks-etiki-sluzhebnogo-povedeniya-rabotnikov-municipalnogo-byudzhetnogo-uchrezhdeniya-kultury-gosudarsvtennyj-ordena-pocheta-muzej-a-m-gorkogo-1/
+2023-06-30 01:56:11,900 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/plan-mbuk-gosudarstvennyj-muzej-a-m-gorkogo-po-nauchno-issledovatelskoj-rabote-na-2017-god/
+2023-06-30 01:56:11,930 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/12/01/1433/
+2023-06-30 01:56:11,990 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1548/
+2023-06-30 01:56:12,003 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/webcatalogs/pismennyepribory/WEB/CR.HTM/
+2023-06-30 01:56:12,018 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/03/1970/
+2023-06-30 01:56:12,198 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/knizhnyy-labirint/
+2023-06-30 01:56:12,358 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/06/1652/
+2023-06-30 01:56:12,576 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1948/
+2023-06-30 01:56:12,630 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1545/
+2023-06-30 01:56:12,657 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/sobytiya/
+2023-06-30 01:56:12,657 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1543/
+2023-06-30 01:56:12,738 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/mezhdunarodnaya-associaciya-muzeev-a-m-gorkogo/
+2023-06-30 01:56:12,767 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/itogi-goda/
+2023-06-30 01:56:12,768 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/23/1377/
+2023-06-30 01:56:12,796 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1541/
+2023-06-30 01:56:12,799 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/bloknot-issledovatelya/
+2023-06-30 01:56:13,009 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/knizhnyy-festival-krasnaya-ploshchad-2020/
+2023-06-30 01:56:13,113 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/proizvedeniya-maksima-gorkogo/
+2023-06-30 01:56:13,113 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1539/
+2023-06-30 01:56:13,387 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1946/
+2023-06-30 01:56:13,465 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1537/
+2023-06-30 01:56:13,503 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1535/
+2023-06-30 01:56:13,505 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/05/1733/
+2023-06-30 01:56:13,569 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/arkhiv-zasedanij-vserossijskoj-associacii-muzeev-a-m-gorkogo-s-mezhdunarodnym-uchastiem/
+2023-06-30 01:56:13,606 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/15/1364/
+2023-06-30 01:56:13,612 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/otchet-mbuk-gosudarstvennyj-muzej-a-m-gorkogo-po-nauchno-issledovatelskoj-rabote-za-2016-god/
+2023-06-30 01:56:13,627 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1533/
+2023-06-30 01:56:13,640 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/publikacii/
+2023-06-30 01:56:13,835 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/proekty-i-meropriyatiya/tematicheskiy-obed-s-bibliotekami-v-ramkakh-iii-konferentsii-fabrika-prostranstv-sreda/
+2023-06-30 01:56:13,908 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/velikie-o-maksime-gorkom/
+2023-06-30 01:56:13,908 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1531/
+2023-06-30 01:56:14,186 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/01/1944/
+2023-06-30 01:56:14,286 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1528/
+2023-06-30 01:56:14,324 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1525/
+2023-06-30 01:56:14,341 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/30/1731/
+2023-06-30 01:56:14,408 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/popechitelskij-sovet-gosudarstvennogo-ordena-pocheta-muzeya-a-m-gorkogo/
+2023-06-30 01:56:14,410 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/10/11/1336/
+2023-06-30 01:56:14,434 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1523/
+2023-06-30 01:56:14,489 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/rezhim-raboty-muzeev/
+2023-06-30 01:56:14,566 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1521/
+2023-06-30 01:56:14,655 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/
+2023-06-30 01:56:14,658 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1519/
+2023-06-30 01:56:14,668 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2022/09/08/2225/
+2023-06-30 01:56:14,951 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/zhivopis/
+2023-06-30 01:56:15,085 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1509/
+2023-06-30 01:56:15,147 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1507/
+2023-06-30 01:56:15,166 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/30/1725/
+2023-06-30 01:56:15,277 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1505/
+2023-06-30 01:56:15,281 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/arkhiv-zasedanij-popechitelskogo-soveta-gosudarstvennogo-ordena-pocheta-muzeya-a-m-gorkogo/
+2023-06-30 01:56:15,300 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/tematicheskie-ekskursii-i-programmy/
+2023-06-30 01:56:15,302 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/10/21/1296/
+2023-06-30 01:56:15,397 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1515/
+2023-06-30 01:56:15,415 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/03/15/2135/
+2023-06-30 01:56:15,424 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1517/
+2023-06-30 01:56:15,461 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/metodicheskie-rekomendatsii-po-ispolzovaniyu-edutainment-formata-kak-instrumenta-privlecheniya-k-cht/
+2023-06-30 01:56:15,714 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/teatr/
+2023-06-30 01:56:15,844 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1554/
+2023-06-30 01:56:15,964 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/29/1729/
+2023-06-30 01:56:16,012 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1513/
+2023-06-30 01:56:16,129 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/12/21/1798/
+2023-06-30 01:56:16,167 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/02/07/1511/
+2023-06-30 01:56:16,184 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/10/25/1310/
+2023-06-30 01:56:16,212 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/15/1134/
+2023-06-30 01:56:16,228 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/programma-raboty-muzeya-s-posetitelyami-s-rasstrojstvom-autisticheskogo-spektra/
+2023-06-30 01:56:16,252 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/01/25/2111/
+2023-06-30 01:56:16,266 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/29/1727/
+2023-06-30 01:56:16,358 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/metodicheskie-rekomendatsii-po-ispolzovaniyu-instrumentov-marketinga-v-deyatelnosti-bibliotek/
+2023-06-30 01:56:16,446 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2019/01/23/2109/
+2023-06-30 01:56:16,604 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/28/1710/
+2023-06-30 01:56:16,762 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/12/1988/
+2023-06-30 01:56:16,995 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/for_partners/
+2023-06-30 01:56:17,018 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/08/22/1115/
+2023-06-30 01:56:17,040 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/09/03/1184/
+2023-06-30 01:56:17,052 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/20/1999/
+2023-06-30 01:56:17,066 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoriya-literaturnogo-muzeya/
+2023-06-30 01:56:17,107 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/12/21/1447/
+2023-06-30 01:56:17,150 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/for_partners/brendbuk/
+2023-06-30 01:56:17,215 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/metodicheskie-rekomendatsii-po-sozdaniyu-komyuniti-soobshchestva/
+2023-06-30 01:56:17,273 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/23/1371/
+2023-06-30 01:56:17,342 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/04/1315/
+2023-06-30 01:56:17,342 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/novosti/
+2023-06-30 01:56:17,500 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/12/1986/
+2023-06-30 01:56:17,786 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/
+2023-06-30 01:56:17,820 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/14/1997/
+2023-06-30 01:56:17,839 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2016/11/11/1360/
+2023-06-30 01:56:17,891 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/smi-o-gosudarstvennom-ordena-pocheta-muzee-a-m-gorkogo/
+2023-06-30 01:56:17,941 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoriya-sozdaniya-muzeya-kvartiry-a-m-gorkogo/
+2023-06-30 01:56:17,950 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/istoriya-domika-kashirina/
+2023-06-30 01:56:18,010 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/lektsii/
+2023-06-30 01:56:18,061 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/metodicheskie-rekomendatsii-po-rabote-s-rayonnymi-soobshchestvami/
+2023-06-30 01:56:18,087 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/prejskurant/
+2023-06-30 01:56:18,121 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/05/24/1802/
+2023-06-30 01:56:18,303 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/05/20/1800/
+2023-06-30 01:56:18,582 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/lektsii/lektsiya-simvolika-tsveta-v-kino/
+2023-06-30 01:56:18,627 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/detskie/seriya-masterskikh-malenkiy-khudozhnik/
+2023-06-30 01:56:18,647 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/05/11/1796/
+2023-06-30 01:56:18,749 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/10/18/1976/
+2023-06-30 01:56:18,767 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/detskie/seriya-masterskikh-malenkiy-khudozhnik1/
+2023-06-30 01:56:18,797 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/11/10/1984/
+2023-06-30 01:56:18,821 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/kontserty/
+2023-06-30 01:56:18,910 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/09/12/1972/
+2023-06-30 01:56:18,917 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/metodicheskie-rekomendatsii-po-podgotovke-i-provedeniyu-kviza-v-biblioteke/
+2023-06-30 01:56:18,935 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/master-klassy/
+2023-06-30 01:56:19,040 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/05/03/1792/
+2023-06-30 01:56:19,413 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/05/03/1794/
+2023-06-30 01:56:19,567 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/27/1786/
+2023-06-30 01:56:19,658 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/detskie/
+2023-06-30 01:56:19,737 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/detskie/seriya-masterskikh-malenkiy-khudozhnik2/
+2023-06-30 01:56:19,756 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/fayly/
+2023-06-30 01:56:19,762 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/
+2023-06-30 01:56:19,762 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/08/21/2003/
+2023-06-30 01:56:19,804 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/26/1790/
+2023-06-30 01:56:20,329 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/22/1784/
+2023-06-30 01:56:20,527 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/
+2023-06-30 01:56:20,554 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/08/21/1990/
+2023-06-30 01:56:20,583 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/08/10/1994/
+2023-06-30 01:56:20,591 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/tests/test-svetlof/
+2023-06-30 01:56:20,591 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/kids/
+2023-06-30 01:56:20,635 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/04/20/1788/
+2023-06-30 01:56:20,645 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/lektsii/lektsiya-vse-delo-v-pape-kak-opyt-otnosheniy-s-ottsom-otrazhaetsya-na-lichnoy-zhizni-zhenshchiny/
+2023-06-30 01:56:21,094 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: http://museumgorkogo.ru/news/2017/03/28/1708/
+2023-06-30 01:56:21,312 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/detskiy-knizhnyy-chellendzh-2023/
+2023-06-30 01:56:21,406 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/
+2023-06-30 01:56:21,478 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/
+2023-06-30 01:56:21,483 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/tests/
+2023-06-30 01:56:21,495 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/
+2023-06-30 01:56:21,557 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/lektsii/
+2023-06-30 01:56:21,581 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/problemy-v-rabote-molodykh-spetsialistov-moskovskikh-bibliotek-issledovanie-idei-instrumenty-resheni/
+2023-06-30 01:56:21,859 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/lektoriy-khorrorologiya-o-filmakh-uzhasov/
+2023-06-30 01:56:21,859 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/den-rozhdeniya-v-svetlovke/
+2023-06-30 01:56:21,859 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/art-lektoriy-iskusstvo-videt/
+2023-06-30 01:56:21,859 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/other/den-svetlova/
+2023-06-30 01:56:21,859 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/
+2023-06-30 01:56:22,104 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/premera-immersivnogo-spektaklya-treugolnyy-mir/
+2023-06-30 01:56:22,404 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/dostoevskiy-literaturnye-progulki-po-nevskomu-prospektu-ot-zimnego-dvortsa-do-znamenskoy-ploshchadi/
+2023-06-30 01:56:22,444 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/collections/
+2023-06-30 01:56:22,464 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/seriya-masterskikh-malenkiy-khudozhnik2/
+2023-06-30 01:56:22,668 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/
+2023-06-30 01:56:22,690 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/tvorcheskiy-klub-bumaga-kraski-nozhnitsy/
+2023-06-30 01:56:22,756 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/igroteka-v-svetlovke/
+2023-06-30 01:56:22,756 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/klub-po-dorogam-skazok/
+2023-06-30 01:56:22,888 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/other/immersivnyy-spektakl-treugolnyy-mir21/
+2023-06-30 01:56:23,120 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/kak-chitat-khudozhestvennuyu-literaturu-kak-professor-pronitsatelnoe-rukovodstvo-po-chteniyu-mezhdu-/
+2023-06-30 01:56:23,212 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/
+2023-06-30 01:56:23,220 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/premera-immersivnogo-spektaklya-treugolnyy-mir/
+2023-06-30 01:56:23,420 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/
+2023-06-30 01:56:23,431 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/uchit-yazyk-nikogda-ne-pozdno-neskolko-sovetov-effektivnogo-izucheniya/
+2023-06-30 01:56:23,468 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/knizhnyy-chellendzh-metodicheskie-rekomendatsii-po-sozdaniyu/
+2023-06-30 01:56:23,552 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/pod-opasnym-solntsem/
+2023-06-30 01:56:23,597 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/yubiley-m-a-svetlova/
+2023-06-30 01:56:23,653 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/9-y-ezhegodnyy-knizhnyy-festival-krasnaya-ploshchad/
+2023-06-30 01:56:23,669 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/other/
+2023-06-30 01:56:23,795 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/other/
+2023-06-30 01:56:23,884 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/kot-kotoryy-lyubil-knigi-/
+2023-06-30 01:56:24,031 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/lektoriy-v-svetlovke/
+2023-06-30 01:56:24,092 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/yubiley-m-a-svetlova/
+2023-06-30 01:56:24,205 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/services/
+2023-06-30 01:56:24,325 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/seriya-masterskikh-malenkiy-khudozhnik1/
+2023-06-30 01:56:24,359 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/to_colleagues/metodicheskie-materialy/sozdanie-kollazhey-po-motivam-proizvedeniya/
+2023-06-30 01:56:24,382 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/ulitsa-svetlyachkov/
+2023-06-30 01:56:24,436 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/biblionoch-2023-v-svetlovke/
+2023-06-30 01:56:24,561 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/master-klassy/master-klass-kak-otredaktirovat-svoy-tekst/
+2023-06-30 01:56:24,564 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/devichnik-s-zabotoy-o-sebe/
+2023-06-30 01:56:24,684 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/istoriya-indii-ot-poyavleniya-ariev-do-nachala-kolonialnoy-ery/
+2023-06-30 01:56:24,819 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/roditeli-i-deti/
+2023-06-30 01:56:24,960 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/9-y-ezhegodnyy-knizhnyy-festival-krasnaya-ploshchad/
+2023-06-30 01:56:25,114 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/services/chto-vy-mozhete-poluchit-besplatno/
+2023-06-30 01:56:25,155 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/seriya-masterskikh-malenkiy-khudozhnik/
+2023-06-30 01:56:25,167 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/mister-uaylder-i-ya/
+2023-06-30 01:56:25,199 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/lektsii/vstrecha-s-izdatelem-aleksandrom-lazarevym/
+2023-06-30 01:56:25,281 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/lektoriy-svetlovka-v-tsentre-gilyarovskogo/
+2023-06-30 01:56:25,353 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/master-klassy/
+2023-06-30 01:56:25,379 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/services/chto-vy-mozhete-poluchit-platno/
+2023-06-30 01:56:25,507 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/istrebitel/
+2023-06-30 01:56:25,564 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/opravdanie-ostrova/
+2023-06-30 01:56:25,613 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/intervyu/
+2023-06-30 01:56:25,735 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/biblionoch-2023-v-svetlovke/
+2023-06-30 01:56:25,961 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/lektoriy-svetlovka-v-knizhnom-klube-magazine-dostoevskiy/
+2023-06-30 01:56:25,967 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/lektsii/lektsiya-simvolika-tsveta-v-kino/
+2023-06-30 01:56:25,990 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/vorone-ozero/
+2023-06-30 01:56:26,079 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/other/spektakl-brandenburgskie-vorota/
+2023-06-30 01:56:26,095 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/lektoriy-blizko-k-serdtsu/
+2023-06-30 01:56:26,095 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/lektoriy-zhenskie-figury/
+2023-06-30 01:56:26,106 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/interaktivnykh-spektakl15/
+2023-06-30 01:56:26,195 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/svetlovka-zapuskaet-svoy-merch/
+2023-06-30 01:56:26,295 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/sverkhproduktivnost/
+2023-06-30 01:56:26,365 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/lektoriy-festivalya-krasnaya-ploshchad-2021/
+2023-06-30 01:56:26,557 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/devichnik-s-zabotoy-o-sebe/
+2023-06-30 01:56:26,783 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/knizhnyy-chellendzh-2023/
+2023-06-30 01:56:26,819 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/luchshaya-polovina-o-geneticheskom-prevoskhodstve-zhenshchin/
+2023-06-30 01:56:26,878 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/knizhnyy-klub-ne-shkolnaya-programma4/
+2023-06-30 01:56:26,931 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/polnyy-bred-skeptitsizm-v-mire-bolshikh-dannykh/
+2023-06-30 01:56:26,980 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/starshaya-sestra-mladshaya-sestra-krasnaya-sestra-tri-zhenshchiny-v-serdtse-kitaya-xx-veka/
+2023-06-30 01:56:26,987 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/interaktivnykh-spektakl/
+2023-06-30 01:56:27,002 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/interaktivnykh-spektakl-/
+2023-06-30 01:56:27,087 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/tayna-nichto-i-beskonechno-mnogo-glupostey/
+2023-06-30 01:56:27,130 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/onlayn-lektoriy/
+2023-06-30 01:56:27,323 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/lektoriy-svetlovka-v-tsentre-gilyarovskogo/
+2023-06-30 01:56:27,619 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/tyazhelyy-svet-kurteyna-zelenyy-tom-3/
+2023-06-30 01:56:27,647 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/kupchikhi-dvoryanki-magnatki-zhenshchiny-predprinimatelnitsy-v-rossii-xix-veka-podrobnee-https-www-l/
+2023-06-30 01:56:27,757 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/other/muzykalno-poeticheskiy-spektakl-serebryanyy-vek-stikhi-pisma-istorii/
+2023-06-30 01:56:27,780 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/kontur/
+2023-06-30 01:56:27,847 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/voobrazhaemyy-vrag/
+2023-06-30 01:56:27,860 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/kontserty/kontsert-poklon-tebe-poet-posvyashchyennyy-dnyu-rozhdeniya-a-s-pushkina/
+2023-06-30 01:56:27,924 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/reportazhi-i-intervyu/
+2023-06-30 01:56:27,924 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/festival-vzmakh-kryla/
+2023-06-30 01:56:27,941 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/v-detskom-sadu-porosenok-/
+2023-06-30 01:56:28,098 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/35-ya-mmkya-2022/
+2023-06-30 01:56:28,196 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/feytfulpleys/
+2023-06-30 01:56:28,364 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/tri-storony-kamnya/
+2023-06-30 01:56:28,397 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/zimniysoldat/
+2023-06-30 01:56:28,579 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/figurysveta/
+2023-06-30 01:56:28,628 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/pere-krestki/
+2023-06-30 01:56:28,678 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/pisatel-ivan-turgenev/
+2023-06-30 01:56:28,686 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/byt-vmeste/
+2023-06-30 01:56:28,751 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/kontserty/
+2023-06-30 01:56:28,753 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/lektoriy-svetlovka-v-knizhnom-klube-magazine-dostoevskiy/
+2023-06-30 01:56:28,819 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/archive/detskie/tvorcheskiy-klub-bumaga-kraski-nozhnitsy31/
+2023-06-30 01:56:28,864 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/collections/mir-media-morali-i-memorialnoy-kultury/
+2023-06-30 01:56:28,917 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/proekt-ave-mariya/
+2023-06-30 01:56:29,134 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/vr-360/
+2023-06-30 01:56:29,189 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/papulya/
+2023-06-30 01:56:29,394 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/info/ottorzhenie/
+2023-06-30 01:56:29,414 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/lora-khenkin-esli-veselo-zhivetsya-delay-tak-ot-izdatelstva-polyandriya-no-age/
+2023-06-30 01:56:29,482 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/nepervaya-feyl-konferentsiya/
+2023-06-30 01:56:29,482 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/detyam-dzheyson-viola-zak-dzhallongo-belye-medvedi/
+2023-06-30 01:56:29,578 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/vremya-chitat-podborka-knig-po-zhanram/
+2023-06-30 01:56:29,578 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/detyam-tamara-mikheeva-ostrovityane/
+2023-06-30 01:56:29,653 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/detyam-lorents-pauli-lis-v-biblioteke/
+2023-06-30 01:56:29,654 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/detyam-mayya-toboeva-tayna-lesnoy-polyany-/
+2023-06-30 01:56:29,674 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/donald-maas-kak-napisat-zazhigatelnyy-roman-insayderskie-sovety-odnogo-iz-samykh-uspeshnykh-literatu/
+2023-06-30 01:56:29,719 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/risto-rumpunen-yurki-seppyalya-moshenniki-v-mire-iskusstva-genialnye-afery-i-gromkie-rassledovaniya/
+2023-06-30 01:56:29,889 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/what-see/mmkya-2020/
+2023-06-30 01:56:29,927 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/kelli-mak-deniel-v-poiske-materinskoy-lyubvi/
+2023-06-30 01:56:30,273 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/olga-primachenko-s-toboy-ya-doma/
+2023-06-30 01:56:30,342 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/bobkova-anastasiya-pigareva-nadezhda-glad-lyubi-khvali-neskuchnoe-rukovodstvo-po-vospitaniyu-sobaki/
+2023-06-30 01:56:30,370 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/chzhan-yuezhan-kokon/
+2023-06-30 01:56:30,422 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/projects/archive/svetlovka-na-festivale-vkus-moskvy-2022/
+2023-06-30 01:56:30,439 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/collections/istern-zombi-i-sluchaynye-chisla-podborka-knig-ot-yany-vagner/
+2023-06-30 01:56:30,439 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/collections/istoriya-imperii-i-vospominaniya/
+2023-06-30 01:56:30,488 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/collections/roud-muvi-samoizolyatsiya-i-patriarkhalnoe-obshchestvo/
+2023-06-30 01:56:30,488 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/collections/smert-grotesk-i-dukhovnost-/
+2023-06-30 01:56:30,559 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/collections/garmoniya-klassiki-i-sovremennosti-/
+2023-06-30 01:56:30,747 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/collections/tsifrovaya-revolyutsiya-zhizn-v-lesu-zhivye-i-mertvye-podborka-knig-dlya-molodezhi-ot-galiny-yuzefov/
+2023-06-30 01:56:31,079 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/other/muzykalno-poeticheskiy-spektakl-serebryanyy-vek-stikhi-pisma-istorii/
+2023-06-30 01:56:31,135 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/detskie/knizhnyy-klub-ne-shkolnaya-programma4/
+2023-06-30 01:56:31,162 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/iskusstvo-govorit-publichno/
+2023-06-30 01:56:31,259 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/chto-pochitat-iz-sovremennoy-poezii-sovetuet-arzamas/
+2023-06-30 01:56:31,259 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/severus-sneyp-zlodeys-zley-kak-geroya-nazovete-tak-on-i-poplyvet/
+2023-06-30 01:56:31,304 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/reviews/vzroslym-vongozero-i-zhivye-lyudi-yany-vagner/
+2023-06-30 01:56:31,305 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/kak-uchit-inostrannye-yazyki-na-udalenke-i-v-lyuboe-drugoe-vremya/
+2023-06-30 01:56:31,344 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/subordinatsiya-sobesedovaniya-i-dress-kod-intervyu-s-ekspertom-po-etiketu/
+2023-06-30 01:56:31,373 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/volshebnaya-pyltsa-pervaya-lyubov-i-lunnaya-dorozhka-kak-cherez-aromaty-otkryt-dlya-sebya-davno-znak/
+2023-06-30 01:56:31,373 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/profiznanka-voprosy-event-prodyuseru-i-istorii-o-provalakh/
+2023-06-30 01:56:31,522 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/kak-pomoch-rebenku-polyubit-biblioteki-i-chtenie/
+2023-06-30 01:56:31,870 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/kak-sdelat-svoyu-rabotu-delom-vsey-zhizni-sovety-ot-rezhissera-i-operatora-postanovshchika-alekseya-/
+2023-06-30 01:56:32,005 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/books/about/kak-sortirovat-otkhody-i-s-chego-nachat-10-voprosov-ekspertu-po-ekologii/
+2023-06-30 01:56:32,013 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/den-svetlova/
+2023-06-30 01:56:32,125 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/kovorking-zakryt/
+2023-06-30 01:56:32,131 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/events/lektsii/urok-legilimentsii-chto-tvoritsya-v-golove-u-garri-pottera/
+2023-06-30 01:56:32,163 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/ezhegodnaya-aktsiya-biblionoch-v-svetlovke/
+2023-06-30 01:56:32,214 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/predostavlenie-v-polzovanie-pianino./
+2023-06-30 01:56:32,241 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/moskovskaya-nedelya-detskoy-knigi/
+2023-06-30 01:56:32,264 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/devichnik-s-zabotoy-o-sebe-v-svetlovke/
+2023-06-30 01:56:32,265 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/vystavka-fantazery-art-goroskop-v-svetlovke/
+2023-06-30 01:56:32,380 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/avtorskie-rekomendatelnye-spiski-dlya-letnego-chteniya/
+2023-06-30 01:56:32,663 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/izmenenie-grafika-raboty1/
+2023-06-30 01:56:32,829 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/izmenenie-grafika-raboty/
+2023-06-30 01:56:32,852 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/novogodnyaya-programma-svetlovki/
+2023-06-30 01:56:33,029 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/news/grafik-raboty-biblioteki-v-period-novogodnikh-i-rozhdestvenskikh-prazdnikov-2022-2023/
+2023-06-30 01:56:33,034 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-2] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/den-molodyezhi-2023/
+2023-06-30 01:56:33,088 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/povyshenie-urovnya-kiberbezopasnosti-naseleniya/
+2023-06-30 01:56:33,088 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/prosvetitelskiy-proekt-znanie-o-geroyakh/
+2023-06-30 01:56:33,088 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/vserossiyskaya-perepis-naseleniya1/
+2023-06-30 01:56:33,094 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/pushkinskaya-karta/
+2023-06-30 01:56:33,124 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-11] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/bud-onlayn-i-poluchi-kvartiru-v-moskve/
+2023-06-30 01:56:33,203 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/onlayn-golosovanie/
+2023-06-30 01:56:33,464 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/mobilnoe-prilozhenie-ar-mos/
+2023-06-30 01:56:33,579 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/laboratoriya-nasledie-kak-performans/
+2023-06-30 01:56:33,608 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/mobilnoe-prilozhenie-dlya-shkolnikov-neb-svet/
+2023-06-30 01:56:34,017 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-8] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/
+2023-06-30 01:56:34,035 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/fotovystavka-obektivno-o-moskve/
+2023-06-30 01:56:34,044 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-5] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/programma-letnego-chteniya-v-gorode-i-za-gorodom/
+2023-06-30 01:56:34,045 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/nezavisimaya-otsenka-kachestva/
+2023-06-30 01:56:34,068 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/informatsionnye-resursy/
+2023-06-30 01:56:34,273 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-3] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/sergey-sobyanin-priglasil-predprinimateley-prinyat-uchastie-v-proekte-delovye-moskvichi-kultura/
+2023-06-30 01:56:34,361 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-4] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/obshcherossiyskaya-aktsiya-soobshchi-gde-torguyut-smertyu/
+2023-06-30 01:56:34,390 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-7] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/ostorozhno-tonkiy-led/
+2023-06-30 01:56:34,851 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-12] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/chto-na-samom-dele-nuzhno-dlya-zashchity-ot-grippa/
+2023-06-30 01:56:34,863 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-9] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/blagotvoritelnyy-servis-na-portale-mera-moskvy-prazdnuet-vtoruyu-godovshchinu/
+2023-06-30 01:56:34,865 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-10] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/povyshenie-finansovoy-gramotnosti-/
+2023-06-30 01:56:34,878 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-6] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/mezhdunarodnyy-den-borby-s-narkomaniey-i-nezakonnym-oborotom-narkotikov-/
+2023-06-30 01:56:34,878 INFO searchengine.services.PageCrawlerUnit [ForkJoinPool-2-worker-1] NEW PageCrawlerUnit created for pagePath: https://svetlovka.ru/partners-news/obshcherossiyskaya-antinarkoticheskaya-aktsiya/
+2023-06-30 01:56:41,464 INFO searchengine.services.implementations.IndexingServiceImpl [Музей Горького] Indexing SUCCESSFULLY completed for site 'Музей Горького'
+2023-06-30 01:56:52,462 INFO searchengine.services.implementations.IndexingServiceImpl [Светловка] Indexing SUCCESSFULLY completed for site 'Светловка'
+2023-06-30 02:01:09,329 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v1.0-SNAPSHOT using Java 20.0.1 on DESKTOP-L8GRBDS with PID 10812 (C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target\Strizhakov-search-engine-1.0-SNAPSHOT.jar started by ASUS in C:\Users\ASUS\Desktop\Skillbox\Аттестация\diplom\Strizhakov-search-engine\target)
+2023-06-30 02:01:09,332 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-30 02:01:09,876 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-30 02:01:09,949 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+2023-06-30 02:01:10,522 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-06-30 02:01:10,539 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-30 02:01:10,540 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-06-30 02:01:10,540 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-06-30 02:01:10,597 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-06-30 02:01:10,598 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1220 ms
+2023-06-30 02:01:10,755 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-30 02:01:10,805 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-06-30 02:01:10,963 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-30 02:01:11,086 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-06-30 02:01:11,294 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-06-30 02:01:11,312 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-30 02:01:11,934 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-30 02:01:11,942 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-30 02:01:12,581 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-30 02:01:12,701 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2023-06-30 02:01:12,852 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-06-30 02:01:12,876 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-30 02:01:12,885 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 3.987 seconds (JVM running for 4.339)
